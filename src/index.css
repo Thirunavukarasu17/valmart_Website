@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  border: 5px solid #0071dc;
+}
+.head{
+  font-size: xx-large;
+  margin-right: 30px;
+}
+
+.valmart {
+  display:flex;
+  align-items: center;
+  color: white;
+  background-color: #0071dc;
+  padding-bottom: 8px;
+  overflow: hidden;
+}
+.department{
+  margin-left: -10px;
+  display: flex;
+  height: 30px;
+}
+.departmenticon{
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.departmentbtn{
+  margin-left: -5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height: 30px;
+  border-radius: 20px;
+  width: 130px;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+.department:hover{
+ background-color: darkblue;  
+ border-radius: 150px;
+ cursor: pointer;
+}
+.services{
+  display: flex;
+  margin-right: 20px;
+}
+.services:hover{
+  background-color: darkblue;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.serviceicon{
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.servicesbtn{
+  margin-left: -25px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 130px;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-grow: 1;
+  height: 30px;
+  width: 420px;
+  border: none;
+}
+.searchdiv{
+  margin-top: 5px;
+  padding-left: 10px;
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  border-radius: 50px;
+  height: 40px;
+  width: 490px;
+}
+.searchicondiv{
+  display: flex;
+  margin-top: 5px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width:30px;
+  background-color:#ffc220;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.searchicon{
+  cursor: pointer;
+  height: 18px;
+  width:18px;
+  color: black;
+}
+.myItemsbtn{
+  margin-left: -63px;
+  position: relative;
+  top: 8px;
+  height: 30px;
+  width: 100px;
+  background-color:transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.myItemsIcon{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+.spantag{
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.myItems{
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 40px;
+}
+.myItems:hover{
+  background-color: darkblue;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.signin{
+  margin-left: 10px;
+  margin-top: 5px;
+  height: 40px;
+  cursor: pointer;
+}
+.signin:hover{
+  background-color: darkblue;
+  border-radius: 100px;
+}
+.number{
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-bottom: 24px;
+  color: antiquewhite;
+  margin-left: 20px;
+  margin-top: 9px;
+  border-radius: 90%;
+  font-size: 17px;
+}
+.shopicon{
+  height:35px;
+  width:35px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.shop{
+  margin-right: 10px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.shop:hover{
+  background-color: darkblue;
+  border-radius: 45%;
+}
+.signin:active{
+  background-color: midnightblue;
+}
+.hrtag{
+  background-color: white;
+  height: 8px;
+}
+
+.domain {
+  background-color: #0071dc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap:50px;
+  font-size: 20px;
+}
+
+.domain li{
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.domain li:hover{
+  background-color: mediumblue;
+}
+.li{
+  text-decoration: none;
+  font-size: 20px;
+  color: beige;
+}
+
+.productimg{
+
+  height: 170px;
+  object-fit: fill;
+  width: 230px;
+  margin:10px;
+  padding: 5px;
+}
+.imagediv{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-between;
+  background-color: #aabed1;
+  flex-wrap: wrap;
+  padding: 20px;
+  height: auto;
+  width: auto;
+  gap:10px;
+}
+
+
+
+.ptag{
+  color:black;
+  font-size: smaller;
+  margin: 5px;
+}
+p span{
+  color: red;
+  font-size: smaller;
+}
+
+.item{
+  border: 2px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 246px;
+  cursor: pointer;
+  background-color:blanchedalmond;
+  transition: transform 450ms;
+}
+
+.footer{
+  margin-top: 10px;
+  background-color: #0071dc;
+  color: antiquewhite;
+  width: 100%;
+  text-align: center;
+}
+.liicon{
+  margin-left: -300px;
+  margin-right: -49px;
+  color: antiquewhite;
+}
+.li1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+
+.banner{
+  text-align: center;
+  background-color:rgba(0, 0, 255, 0.349);
+  display: flex;
+  flex-wrap: wrap;
+  height:auto ;
+  width: auto;
+  object-fit: fill;
+  align-items: center;
+  justify-content: center;
+}
+.banner div img{
+  margin:9px;
+  height:auto;
+  width: auto;
+  border: 2px solid black;
+  padding: 2px;
+  cursor: pointer;
+}
+.home{
+  background-color: #aabed1;
+  margin-bottom: -10px;
+}
+.homepage{
+  color: navy;
+  font-weight: bolder;
+  font-size: large;
+}
+.divatag{
+  text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.atag{
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 12px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.atag:hover{
+  text-decoration: underline;
+}
+
+.products{
+  color: navy;
+  font-weight: bolder;
+  font-size: large;
+  background-color: #aabed1;
+}
+
+
+.item:hover{
+ background-color: #ffc220;
+}
+.item:hover p span{
+  color:blue;
+}
+.item:hover{
+  transform: scale(1.08);
+}
+.banner div{
+  transition: transform 450ms;
+}
+.banner div:hover{
+  transform: scale(1.08);
+}
+.logo{
+  position: relative;
+  margin-bottom: -12px;
+  margin-left: 2px;
+  color:#ffc220 ;
+  font-size: 50px;
+  font-weight: bolder;
+}

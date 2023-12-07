@@ -1,0 +1,32 @@
+        <Routes>
+          <Route path='/' element={<Homepage/>}></Route>
+          <Route path='/Electronics' element={<Products Pname="eletronics"/>}></Route>
+          <Route path='/Fashion' element={<Products pname="fashion"/>}></Route>
+          <Route path='/Home Products' element={<Products pname="home"/>}></Route>
+
+          <Route path='/Cart' element={<Cart/>}></Route>
+          <Route path='/Signup' element={<Signup/>}></Route>
+          
+        </Routes>
+
+        
+var footer=[All Departments,
+Store Directory,
+Careers,
+Our Company,
+Sell on Walmart.com,
+Help,
+COVID-19 Vaccine Scheduler,
+Product Recalls,
+Accessibility,
+Tax Exempt Program,
+Get the Walmart App,
+Sign-up for Email,
+Safety Data Sheet,
+Terms of Use,
+Privacy & Security,
+California Supply Chain Act,
+Privacy choices iconYour Privacy Choices,
+Notice at Collection,
+Request My Personal Information,
+Brand Shop Directory]
